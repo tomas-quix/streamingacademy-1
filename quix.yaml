@@ -173,3 +173,10 @@ topics:
       replicationFactor: 2
       retentionInMinutes: 1440
       retentionInBytes: 52428800
+  - name: repartition__0afdc474-eaef-49e0-9d91-f692c539ff09--f1-data--Sector
+    persisted: false
+    configuration:
+      partitions: 1
+      replicationFactor: 2
+      retentionInMinutes: 1440
+      retentionInBytes: 52428800
