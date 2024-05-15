@@ -54,3 +54,10 @@ topics:
     persisted: false
     configuration:
       partitions: 1
+  - name: repartition__f52fe7eb-b296-432b-bb16-b6ec8dab7d2f--f1-data--Sector
+    persisted: false
+    configuration:
+      partitions: 1
+      replicationFactor: 2
+      retentionInMinutes: 1440
+      retentionInBytes: 52428800
