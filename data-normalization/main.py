@@ -27,6 +27,7 @@ def transpose(message: dict):
     
     return result_row
 
+
 sdf = sdf.apply(transpose)
 
 sdf = sdf[sdf.contains("location-speed")]
